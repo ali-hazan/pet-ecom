@@ -31,7 +31,7 @@ import { useVModel } from "@vueuse/core";
 
 const id = getUid();
 const props = defineProps<{
-  modelValue: string;
+  modelValue: boolean;
 }>();
 const emit = defineEmits(["update:modelValue"]);
 const data = useVModel(props, "modelValue", emit);

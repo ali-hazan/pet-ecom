@@ -36,6 +36,8 @@
 
 <script lang="ts" setup>
 import { useCartStore } from "@/stores/index";
+import { storeToRefs } from "pinia";
+import { ref } from "vue";
 const selectAll = ref(false);
 const { emptyCart } = useCartStore();
 const { cart, totalItemsInCart } = storeToRefs(useCartStore());
