@@ -16,5 +16,7 @@ yarn build
 
 # Available discount codes
 "BIG25" (25% offer), "SAVE10 (10% offer)",FLAT50 (50 AED offer)
-```
+
+# live demo
+https://pet-ecom.hazan.dev/
 
