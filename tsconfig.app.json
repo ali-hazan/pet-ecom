@@ -4,6 +4,7 @@
     "env.d.ts",
     "src/**/*",
     "src/**/*.vue",
+    "src/layout/*",
     "./node_modules/.auto-imports-type/auto-imports.d.ts",
     "./node_modules/.auto-imports-type/components.d.ts"
   ],

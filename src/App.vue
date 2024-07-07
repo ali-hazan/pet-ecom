@@ -1,12 +1,17 @@
-<script setup lang="ts">
+<template>
+  <div class="bg-slate-50">
+    <MainLayout>
+      <router-view v-slot="{ Component }">
+        <transition name="fade">
+          <component :is="Component" />
+        </transition>
+      </router-view>
+    </MainLayout>
+  </div>
+</template>
 
+<script setup lang="ts">
+import MainLayout from "@/layout/Main.vue";
 </script>
 
-<template>
-    <div class="flex justify-center w-[100vw] h-[100vh]">
-      <RouterView />
-    </div>
-</template>
-<style scoped>
-
-</style>
+<style scoped></style>
